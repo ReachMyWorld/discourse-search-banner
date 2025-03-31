@@ -20,17 +20,16 @@
       max-width: unset;
       width: auto;
     }
-    > h1 {
-      // Remove display: none to make it visible
-      // display: none;
-      color: #FAF9F6 !important; // Add this line to change the text color
-    }
+
+    > h1,
     > p {
-      // If you also want to change the paragraph text color
-      // display: none;
-      color: #FAF9F6 !important;
+      display: none;
     }
 
+    > div {
+      font-size: var(--font-up-4);
+      max-width: unset;
+    }
     > div {
       font-size: var(--font-up-4);
       max-width: unset;
