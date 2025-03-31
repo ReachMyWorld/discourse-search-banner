@@ -21,13 +21,13 @@
       width: auto;
     }
 
-    > h1 {
-      color: var(--primary-high)
-
+    h1 {
+    color: #FF6B6B !important;
     }
-    > p {
-      color: var(--primary-high);
-    }   
+
+    p {
+    color: #FFFFFF !important;
+    }
 
     .results {
       font-size: var(--font-down-3);
