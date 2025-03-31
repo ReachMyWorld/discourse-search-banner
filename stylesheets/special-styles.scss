@@ -20,10 +20,15 @@
       max-width: unset;
       width: auto;
     }
-    > h1,
+    > h1 {
+      // Remove display: none to make it visible
+      // display: none;
+      color: #FAF9F6; // Add this line to change the text color
+    }
     > p {
-      // display: none; - Remove this line
-      color: #FAF9F6; // Add this line for the desired color
+      // If you also want to change the paragraph text color
+      // display: none;
+      color: #FAF9F6;
     }
 
     > div {
