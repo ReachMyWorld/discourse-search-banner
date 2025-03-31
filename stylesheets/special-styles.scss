@@ -1,7 +1,7 @@
 @if $special-style == "big search, no text" {
   .custom-search-banner-wrap {
     padding: 0;
-    color: #FF6B6B !important;
+
 
     @if $background-image-light != "" {
       background-image: var(--custom-bg);
@@ -22,12 +22,15 @@
       width: auto;
     }
 
-    h1 {
-    color: #FF6B6B !important;
+    > h1,
+    > p {
+      display: none;
     }
 
-    p {
-    color: #FFFFFF !important;
+    > div {
+      font-size: var(--font-up-4);
+      max-width: unset;
+      color: #FF6B6B !important;
     }
 
     .results {
