@@ -23,12 +23,12 @@
     > h1 {
       // Remove display: none to make it visible
       // display: none;
-      color: #FAF9F6; // Add this line to change the text color
+      color: #FAF9F6 !important; // Add this line to change the text color
     }
     > p {
       // If you also want to change the paragraph text color
       // display: none;
-      color: #FAF9F6;
+      color: #FAF9F6 !important;
     }
 
     > div {
