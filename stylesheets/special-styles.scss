@@ -20,10 +20,10 @@
       max-width: unset;
       width: auto;
     }
-
     > h1,
     > p {
-      display: none;
+      // display: none; - Remove this line
+      color: #FAF9F6; // Add this line for the desired color
     }
 
     > div {
