@@ -26,13 +26,21 @@
       display: none;
     }
 
-    > div {
-      font-size: var(--font-up-4);
-      max-width: unset;
+    // Comment out or remove these lines:
+    // > h1,
+    // > p {
+    //   display: none;
+    // }
+    
+    // Add these instead:
+    > h1 {
+      display: block;
+      color: #FF6B6B; // Your desired color
     }
-    > div {
-      font-size: var(--font-up-4);
-      max-width: unset;
+    
+    > p {
+      display: block;
+      color: #FFFFFF; // Your desired color
     }
 
     .results {
