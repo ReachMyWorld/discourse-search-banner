@@ -1,6 +1,7 @@
 @if $special-style == "big search, no text" {
   .custom-search-banner-wrap {
     padding: 0;
+    color: #FF6B6B !important;
 
 
     @if $background-image-light != "" {
