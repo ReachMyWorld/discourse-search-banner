@@ -21,17 +21,19 @@
       width: auto;
     }
 
-    > h1,
-    > p {
-      display: none;
+    /* Target the exact H1 element using the selector from your screenshot */
+    .above-main-container-outlet.search-banner .custom-search-banner-wrap h1 {
+      color: #FF6B6B !important; /* Example: Change to a coral red color */
+    }
+    
+    /* Also target the paragraph text */
+    .above-main-container-outlet.search-banner .custom-search-banner-wrap p {
+      color: #FFFFFF !important; /* Example: Change to white */
     }
 
-    Comment out or remove these lines:
-    > h1,
-    > p {
-    display: none;
-    }
-  
+
+
+    
 
     .results {
       font-size: var(--font-down-3);
